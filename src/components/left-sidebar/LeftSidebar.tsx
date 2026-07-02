@@ -1,12 +1,19 @@
-import { MENU_ITEMS } from "@/data/menu.data";
-
+import { LIBRARY_MENU_ITEMS, MENU_ITEMS } from "@/data/menu.data";
+import { Menu } from "./Menu";
 
 export function LeftSidebar() {
-    return <aside>
+  return (
+    <aside>
+      <Menu items={MENU_ITEMS} />
 
-{MENU_ITEMS.map((item) => (
-    
-))}
+      <hr />
 
-        </aside>
+        <Menu items={LIBRARY_MENU_ITEMS} title="Library" />
+
+        <hr/>
+
+        {/* <Menu items={MENU_ITEMS} title="Playlists" /> */}
+
+    </aside>
+  );
 }
