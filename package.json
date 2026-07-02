@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
+    "mobx": "^6.16.1",
+    "mobx-react-lite": "^4.1.1",
+    "mobx-react-observer": "^2.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.2"
