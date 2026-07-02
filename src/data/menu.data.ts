@@ -23,27 +23,27 @@ export type TMenuItem = (typeof MENU_ITEMS)[number];
 
  export const LIBRARY_MENU_ITEMS = [
     {
-        icon: Music,
+       
         name: 'Made For You',
         link: PagesConfig.MADE_FOR_YOU,
     },
     {
-        icon: Clock,
+      
         name: 'Recently Played',
         link: PagesConfig.RECENTLY_PLAYED,
     },
     {
-        icon: Heart,
+  
         name: 'Liked Songs',
         link: PagesConfig.LIKED_SONGS,
     },
     {
-        icon: Album,
+     
         name: 'Albums',
         link: PagesConfig.ALBUMS()
     },
     {
-        icon: User,
+       
         name: 'Artists',
         link: PagesConfig.ARTISTS()
     }
