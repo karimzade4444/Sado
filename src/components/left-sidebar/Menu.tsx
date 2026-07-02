@@ -12,7 +12,7 @@ export function Menu({ items, title }: Props) {
       <ul>
         {items.map((item) => (
           <li>
-            <a className="flex gap-2 items-center mb-5 group">
+            <a className="flex gap-3 items-center mb-5 group">
               {item.icon && <item.icon  className="group-hover:text-accent"/>}
               <span>{item.name}</span>
             </a>
