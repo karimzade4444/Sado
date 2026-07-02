@@ -1,4 +1,4 @@
-import { Album, Clock, Compass, Heart, Home, icons, Music, Radio, User } from "lucide-react";
+import { Album, Clock, Compass, Heart, Home,  Music, Radio, User } from "lucide-react";
 import { PagesConfig } from "../config/page.config";
 
 export const MENU_ITEMS = [
