@@ -2,6 +2,7 @@ import { PagesConfig } from "../config/page.config";
 
 export const MENU_ITEMS = [
     {
+        
         name: "Home",
         link: PagesConfig.HOME,
     },
