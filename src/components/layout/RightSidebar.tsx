@@ -2,7 +2,9 @@
 
 const RightSidebar = () => {
   return (
-    <div className=" h-full bg-bg-secondary">RightSidebar</div>
+    <div className=" h-full bg-bg-secondary ">
+
+    </div>
   )
 }
 
