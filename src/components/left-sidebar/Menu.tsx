@@ -8,7 +8,7 @@ interface Props {
 export function Menu({ items, title }: Props) {
   return (
     <div>
-      {title && <div>{title}</div>}
+      {title && <div className=" opacity-70 uppercase mb-6">{title}</div>}
       <ul>
         {items.map((item) => (
           <li>

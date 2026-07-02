@@ -6,14 +6,13 @@ export function LeftSidebar() {
     <aside>
       <Menu items={MENU_ITEMS} />
 
-      <hr />
+      <hr className=" my-10 border-white/20 " />
 
-        <Menu items={LIBRARY_MENU_ITEMS} title="Library" />
+      <Menu items={LIBRARY_MENU_ITEMS} title="Library" />
 
-        <hr/>
+      <hr className=" my-10 border-white/20 " />
 
-        {/* <Menu items={MENU_ITEMS} title="Playlists" /> */}
-
+      {/* <Menu items={MENU_ITEMS} title="Playlists" /> */}
     </aside>
   );
 }
