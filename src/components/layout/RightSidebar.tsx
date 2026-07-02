@@ -2,7 +2,7 @@
 
 const RightSidebar = () => {
   return (
-    <div>RightSidbar</div>
+    <div className=" h-full bg-bg-secondary">RightSidebar</div>
   )
 }
 
