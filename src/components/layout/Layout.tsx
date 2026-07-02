@@ -4,7 +4,7 @@ import RightSidebar from "./RightSidebar";
 
 export default function Layout({ children }: PropsWithChildren<unknown>) {
   return (
-    <div className=" h-full grid grid-cols-[1fr_3.5fr_1.2fr]">
+    <div className=" h-full grid grid-cols-[1fr_4fr_1.2fr]">
       <LeftSidebar />
       <main className=" py-6 px-4">
         {children}
