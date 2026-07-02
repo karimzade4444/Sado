@@ -1,18 +1,24 @@
- export class PagesConfig  {
-    static HOME = '/';
-    static DISCOVER = '/discover';
-    static RADIO = '/radio';
+ export class PagesConfig {
+   static HOME = "/";
+   static DISCOVER = "/discover";
+   static RADIO = "/radio";
+   static MADE_FOR_YOU = "/made-for-you";
+   static RECENTLY_PLAYED = "/recently-played";
+   static LIKED_SONGS = "/liked-songs";
 
+   static PLAYLIST(id: string) {
+     return `/playlist/${id}`;
+   }
 
-    static  PLAYLIST(id: string) {
-        return `/playlist/${id}`;
-    }
+   static ALBUMS(id?: string) {
+     return `/album` + (id ? `/${id}` : "");
+   }
 
-    static  ALBUM(id: string) {
-        return `/album/${id}`;
-    }
+   static ARTISTS(id?: string) {
+     return `/artist` + (id ? `/${id}` : "");
+   }
 
-    static  ARTIST(id: string) {
-        return `/artist/${id}`;
-    }
+   static PODCAST(id?: string) {
+     return `/podcast` + (id ? `/${id}` : "");
+   }
  }
